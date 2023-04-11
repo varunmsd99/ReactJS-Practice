@@ -4,11 +4,14 @@
   "description": "This is a test repo for React JS",
   "main": "App.js",
   "scripts": {
+    "start": "parcel Index.html",
+    "build": "parcel build Index.html",
     "test": "jest"
   },
   "author": "Varun VK",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.21.0",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
